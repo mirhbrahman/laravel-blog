@@ -1,0 +1,108 @@
+/*!
+ * Start Bootstrap - Blog Home (http://startbootstrap.com/template-overviews/blog-home)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-home/blob/master/LICENSE)
+ */
+
+body {
+    padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+
+
+
+}
+
+.bg-dark {
+    background-color: #02BDD5!important;
+}
+.global-page-header {
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 50px 0 25px 0;
+    position: relative;
+    background: #02bdd5;
+    color: #fff;
+}
+
+.global-page-header h2 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.blog-content h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.blog-content h3 a {
+    color: #444;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.blog-meta {
+    color: #9a9a9a;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    line-height: 22px;
+    font-size: 16px;
+    font-weight: 300;
+}
+.btn-info {
+    color: #fff;
+    background-color: #02BDD5;
+    border-color: #02BDD5;
+}
+.pagination {
+    padding-left: 0;
+    margin: 22px 0;
+    border-radius: 4px;
+}
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    line-height: 1.6;
+    text-decoration: none;
+    color: #02BDD5;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-left: -1px;
+}
+
+a{
+    color: #02BDD5;
+}
+
+
+.badge-my {
+    display: inline-block;
+    min-width: 10px;
+    padding: 6px 14px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    color: #02BDD5;
+
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: white;
+    border: 1px solid silver;
+    border-radius: 10px;
+}
